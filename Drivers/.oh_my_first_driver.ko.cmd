@@ -1,1 +1,0 @@
-cmd_/home/cvam/Documents/Linux_DEV/OS/Drivers/oh_my_first_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/cvam/Documents/Linux_DEV/OS/Drivers/oh_my_first_driver.ko /home/cvam/Documents/Linux_DEV/OS/Drivers/oh_my_first_driver.o /home/cvam/Documents/Linux_DEV/OS/Drivers/oh_my_first_driver.mod.o;  true

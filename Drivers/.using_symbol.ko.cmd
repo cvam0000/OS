@@ -1,0 +1,1 @@
+cmd_/home/cvam/Documents/Linux_DEV/OS/Drivers/using_symbol.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/cvam/Documents/Linux_DEV/OS/Drivers/using_symbol.ko /home/cvam/Documents/Linux_DEV/OS/Drivers/using_symbol.o /home/cvam/Documents/Linux_DEV/OS/Drivers/using_symbol.mod.o;  true

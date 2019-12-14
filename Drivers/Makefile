@@ -12,3 +12,5 @@ obj-m += template_driver.o
 
 obj-m := exporting_symbol.o
 obj-m += using_symbol.o
+
+obj-m := parameters.o

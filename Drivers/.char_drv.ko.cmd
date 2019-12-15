@@ -1,0 +1,1 @@
+cmd_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.ko /home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o /home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.mod.o;  true

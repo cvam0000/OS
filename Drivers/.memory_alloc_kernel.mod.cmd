@@ -1,0 +1,1 @@
+cmd_/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.mod := { echo  /home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o; echo; } > /home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.mod

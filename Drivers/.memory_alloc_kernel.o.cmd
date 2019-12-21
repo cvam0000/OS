@@ -1,8 +1,8 @@
-cmd_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := gcc -Wp,-MD,/home/cvam/Documents/Linux_DEV/OS/Drivers/.char_drv.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -fplugin=./scripts/gcc-plugins/structleak_plugin.so -fplugin-arg-structleak_plugin-byref-all -DSTRUCTLEAK_PLUGIN -Wframe-larger-than=2048 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -fcf-protection=none -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"char_drv"' -DKBUILD_MODNAME='"char_drv"' -c -o /home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o /home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.c
+cmd_/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o := gcc -Wp,-MD,/home/cvam/Documents/Linux_DEV/OS/Drivers/.memory_alloc_kernel.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -fplugin=./scripts/gcc-plugins/structleak_plugin.so -fplugin-arg-structleak_plugin-byref-all -DSTRUCTLEAK_PLUGIN -Wframe-larger-than=2048 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -fcf-protection=none -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"memory_alloc_kernel"' -DKBUILD_MODNAME='"memory_alloc_kernel"' -c -o /home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o /home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.c
 
-source_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := /home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.c
+source_/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o := /home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.c
 
-deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
+deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cpu/big/endian.h) \
     $(wildcard include/config/booger.h) \
@@ -16,15 +16,46 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/retpoline.h) \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
-  include/linux/init.h \
-    $(wildcard include/config/have/arch/prel32/relocations.h) \
-    $(wildcard include/config/strict/kernel/rwx.h) \
-    $(wildcard include/config/strict/module/rwx.h) \
+  include/linux/slab.h \
+    $(wildcard include/config/debug/slab.h) \
+    $(wildcard include/config/debug/objects.h) \
+    $(wildcard include/config/failslab.h) \
+    $(wildcard include/config/memcg/kmem.h) \
+    $(wildcard include/config/kasan.h) \
+    $(wildcard include/config/have/hardened/usercopy/allocator.h) \
+    $(wildcard include/config/slab.h) \
+    $(wildcard include/config/slub.h) \
+    $(wildcard include/config/slob.h) \
+    $(wildcard include/config/zone/dma.h) \
+    $(wildcard include/config/numa.h) \
+    $(wildcard include/config/tracing.h) \
+    $(wildcard include/config/smp.h) \
+  include/linux/gfp.h \
+    $(wildcard include/config/lockdep.h) \
+    $(wildcard include/config/highmem.h) \
+    $(wildcard include/config/zone/dma32.h) \
+    $(wildcard include/config/zone/device.h) \
+    $(wildcard include/config/pm/sleep.h) \
+    $(wildcard include/config/contig/alloc.h) \
+    $(wildcard include/config/cma.h) \
+  include/linux/mmdebug.h \
+    $(wildcard include/config/debug/vm.h) \
+    $(wildcard include/config/debug/virtual.h) \
+    $(wildcard include/config/debug/vm/pgflags.h) \
+  include/linux/bug.h \
+    $(wildcard include/config/generic/bug.h) \
+    $(wildcard include/config/bug/on/data/corruption.h) \
+  arch/x86/include/asm/bug.h \
+    $(wildcard include/config/x86/32.h) \
+    $(wildcard include/config/debug/bugverbose.h) \
+  include/linux/stringify.h \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/bug.h) \
+    $(wildcard include/config/generic/bug/relative/pointers.h) \
   include/linux/compiler.h \
     $(wildcard include/config/trace/branch/profiling.h) \
     $(wildcard include/config/profile/all/branches.h) \
     $(wildcard include/config/stack/validation.h) \
-    $(wildcard include/config/kasan.h) \
   include/linux/compiler_types.h \
   include/uapi/linux/types.h \
   arch/x86/include/generated/uapi/asm/types.h \
@@ -39,18 +70,15 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   include/linux/stddef.h \
   include/uapi/linux/stddef.h \
   arch/x86/include/asm/posix_types.h \
-    $(wildcard include/config/x86/32.h) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
   arch/x86/include/asm/barrier.h \
   arch/x86/include/asm/alternative.h \
-    $(wildcard include/config/smp.h) \
   include/linux/types.h \
     $(wildcard include/config/have/uid16.h) \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
-  include/linux/stringify.h \
   arch/x86/include/asm/asm.h \
   arch/x86/include/asm/nops.h \
     $(wildcard include/config/mk7.h) \
@@ -58,32 +86,6 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/x86/64.h) \
   include/asm-generic/barrier.h \
   include/linux/kasan-checks.h \
-  include/linux/module.h \
-    $(wildcard include/config/modules.h) \
-    $(wildcard include/config/sysfs.h) \
-    $(wildcard include/config/modules/tree/lookup.h) \
-    $(wildcard include/config/livepatch.h) \
-    $(wildcard include/config/unused/symbols.h) \
-    $(wildcard include/config/module/sig.h) \
-    $(wildcard include/config/generic/bug.h) \
-    $(wildcard include/config/kallsyms.h) \
-    $(wildcard include/config/tracepoints.h) \
-    $(wildcard include/config/tree/srcu.h) \
-    $(wildcard include/config/bpf/events.h) \
-    $(wildcard include/config/jump/label.h) \
-    $(wildcard include/config/tracing.h) \
-    $(wildcard include/config/event/tracing.h) \
-    $(wildcard include/config/ftrace/mcount/record.h) \
-    $(wildcard include/config/module/unload.h) \
-    $(wildcard include/config/constructors.h) \
-    $(wildcard include/config/function/error/injection.h) \
-  include/linux/list.h \
-    $(wildcard include/config/debug/list.h) \
-  include/linux/poison.h \
-    $(wildcard include/config/illegal/pointer/value.h) \
-    $(wildcard include/config/page/poisoning/zero.h) \
-  include/linux/const.h \
-  include/uapi/linux/const.h \
   include/linux/kernel.h \
     $(wildcard include/config/preempt/voluntary.h) \
     $(wildcard include/config/debug/atomic/sleep.h) \
@@ -91,6 +93,7 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/arch/has/refcount.h) \
     $(wildcard include/config/panic/timeout.h) \
+    $(wildcard include/config/ftrace/mcount/record.h) \
   /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include/stdarg.h \
   include/linux/limits.h \
   include/uapi/linux/limits.h \
@@ -98,11 +101,16 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   include/linux/export.h \
     $(wildcard include/config/modversions.h) \
     $(wildcard include/config/module/rel/crcs.h) \
+    $(wildcard include/config/have/arch/prel32/relocations.h) \
+    $(wildcard include/config/modules.h) \
     $(wildcard include/config/trim/unused/ksyms.h) \
+    $(wildcard include/config/unused/symbols.h) \
   arch/x86/include/asm/linkage.h \
     $(wildcard include/config/x86/alignment/16.h) \
   include/linux/bitops.h \
   include/linux/bits.h \
+  include/linux/const.h \
+  include/uapi/linux/const.h \
   arch/x86/include/asm/bitops.h \
     $(wildcard include/config/x86/cmov.h) \
   arch/x86/include/asm/rmwcc.h \
@@ -150,6 +158,9 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/printk/nmi.h) \
     $(wildcard include/config/printk.h) \
     $(wildcard include/config/dynamic/debug.h) \
+  include/linux/init.h \
+    $(wildcard include/config/strict/kernel/rwx.h) \
+    $(wildcard include/config/strict/module/rwx.h) \
   include/linux/kern_levels.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
@@ -160,27 +171,53 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/x86/internode/cache/shift.h) \
     $(wildcard include/config/x86/vsmp.h) \
   include/linux/dynamic_debug.h \
+    $(wildcard include/config/jump/label.h) \
   include/linux/jump_label.h \
     $(wildcard include/config/have/arch/jump/label/relative.h) \
   arch/x86/include/asm/jump_label.h \
   include/linux/build_bug.h \
   arch/x86/include/asm/div64.h \
   include/asm-generic/div64.h \
-  include/linux/stat.h \
-  arch/x86/include/uapi/asm/stat.h \
-  include/uapi/linux/stat.h \
-  include/linux/time.h \
-    $(wildcard include/config/arch/uses/gettimeoffset.h) \
-  include/linux/seqlock.h \
-    $(wildcard include/config/debug/lock/alloc.h) \
+  include/linux/mmzone.h \
+    $(wildcard include/config/force/max/zoneorder.h) \
+    $(wildcard include/config/memory/isolation.h) \
+    $(wildcard include/config/shuffle/page/allocator.h) \
+    $(wildcard include/config/zsmalloc.h) \
+    $(wildcard include/config/memcg.h) \
+    $(wildcard include/config/sparsemem.h) \
+    $(wildcard include/config/memory/hotplug.h) \
+    $(wildcard include/config/compaction.h) \
+    $(wildcard include/config/discontigmem.h) \
+    $(wildcard include/config/transparent/hugepage.h) \
+    $(wildcard include/config/flat/node/mem/map.h) \
+    $(wildcard include/config/page/extension.h) \
+    $(wildcard include/config/deferred/struct/page/init.h) \
+    $(wildcard include/config/have/memory/present.h) \
+    $(wildcard include/config/have/memoryless/nodes.h) \
+    $(wildcard include/config/have/memblock/node/map.h) \
+    $(wildcard include/config/need/multiple/nodes.h) \
+    $(wildcard include/config/have/arch/early/pfn/to/nid.h) \
+    $(wildcard include/config/flatmem.h) \
+    $(wildcard include/config/sparsemem/extreme.h) \
+    $(wildcard include/config/memory/hotremove.h) \
+    $(wildcard include/config/sparsemem/vmemmap.h) \
+    $(wildcard include/config/have/arch/pfn/valid.h) \
+    $(wildcard include/config/holes/in/zone.h) \
+    $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/spinlock.h \
     $(wildcard include/config/debug/spinlock.h) \
     $(wildcard include/config/preemption.h) \
+    $(wildcard include/config/debug/lock/alloc.h) \
   include/linux/preempt.h \
     $(wildcard include/config/preempt/count.h) \
     $(wildcard include/config/debug/preempt.h) \
     $(wildcard include/config/trace/preempt/toggle.h) \
     $(wildcard include/config/preempt/notifiers.h) \
+  include/linux/list.h \
+    $(wildcard include/config/debug/list.h) \
+  include/linux/poison.h \
+    $(wildcard include/config/illegal/pointer/value.h) \
+    $(wildcard include/config/page/poisoning/zero.h) \
   arch/x86/include/asm/preempt.h \
   arch/x86/include/asm/percpu.h \
     $(wildcard include/config/x86/64/smp.h) \
@@ -197,13 +234,6 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/thread/info/in/task.h) \
     $(wildcard include/config/have/arch/within/stack/frames.h) \
     $(wildcard include/config/hardened/usercopy.h) \
-  include/linux/bug.h \
-    $(wildcard include/config/bug/on/data/corruption.h) \
-  arch/x86/include/asm/bug.h \
-    $(wildcard include/config/debug/bugverbose.h) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/bug.h) \
-    $(wildcard include/config/generic/bug/relative/pointers.h) \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -246,14 +276,9 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   arch/x86/include/asm/kaslr.h \
     $(wildcard include/config/randomize/memory.h) \
   arch/x86/include/asm/page_64.h \
-    $(wildcard include/config/debug/virtual.h) \
-    $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/x86/vsyscall/emulation.h) \
   include/linux/range.h \
   include/asm-generic/memory_model.h \
-    $(wildcard include/config/discontigmem.h) \
-    $(wildcard include/config/sparsemem/vmemmap.h) \
-    $(wildcard include/config/sparsemem.h) \
   include/linux/pfn.h \
   include/asm-generic/getorder.h \
   arch/x86/include/asm/cpufeature.h \
@@ -296,6 +321,7 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   include/asm-generic/qrwlock_types.h \
   arch/x86/include/uapi/asm/sigcontext.h \
   arch/x86/include/asm/msr.h \
+    $(wildcard include/config/tracepoints.h) \
   arch/x86/include/asm/msr-index.h \
   arch/x86/include/generated/uapi/asm/errno.h \
   include/uapi/asm-generic/errno.h \
@@ -347,7 +373,6 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/mmiowb.h) \
   include/linux/spinlock_types.h \
   include/linux/lockdep.h \
-    $(wildcard include/config/lockdep.h) \
     $(wildcard include/config/lock/stat.h) \
   include/linux/rwlock_types.h \
   arch/x86/include/asm/spinlock.h \
@@ -388,61 +413,11 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/inline/write/unlock/irq.h) \
     $(wildcard include/config/inline/read/unlock/irqrestore.h) \
     $(wildcard include/config/inline/write/unlock/irqrestore.h) \
-  include/linux/time32.h \
-  include/linux/timex.h \
-  include/uapi/linux/timex.h \
-  include/uapi/linux/param.h \
-  arch/x86/include/generated/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/hz.h) \
-  include/uapi/asm-generic/param.h \
-  arch/x86/include/asm/timex.h \
-  arch/x86/include/asm/tsc.h \
-    $(wildcard include/config/x86/tsc.h) \
-  include/linux/uidgid.h \
-    $(wildcard include/config/multiuser.h) \
-    $(wildcard include/config/user/ns.h) \
-  include/linux/highuid.h \
-  include/linux/kmod.h \
-  include/linux/umh.h \
-  include/linux/gfp.h \
-    $(wildcard include/config/highmem.h) \
-    $(wildcard include/config/zone/dma.h) \
-    $(wildcard include/config/zone/dma32.h) \
-    $(wildcard include/config/zone/device.h) \
-    $(wildcard include/config/numa.h) \
-    $(wildcard include/config/pm/sleep.h) \
-    $(wildcard include/config/contig/alloc.h) \
-    $(wildcard include/config/cma.h) \
-  include/linux/mmdebug.h \
-    $(wildcard include/config/debug/vm.h) \
-    $(wildcard include/config/debug/vm/pgflags.h) \
-  include/linux/mmzone.h \
-    $(wildcard include/config/force/max/zoneorder.h) \
-    $(wildcard include/config/memory/isolation.h) \
-    $(wildcard include/config/shuffle/page/allocator.h) \
-    $(wildcard include/config/zsmalloc.h) \
-    $(wildcard include/config/memcg.h) \
-    $(wildcard include/config/memory/hotplug.h) \
-    $(wildcard include/config/compaction.h) \
-    $(wildcard include/config/transparent/hugepage.h) \
-    $(wildcard include/config/flat/node/mem/map.h) \
-    $(wildcard include/config/page/extension.h) \
-    $(wildcard include/config/deferred/struct/page/init.h) \
-    $(wildcard include/config/have/memory/present.h) \
-    $(wildcard include/config/have/memoryless/nodes.h) \
-    $(wildcard include/config/have/memblock/node/map.h) \
-    $(wildcard include/config/need/multiple/nodes.h) \
-    $(wildcard include/config/have/arch/early/pfn/to/nid.h) \
-    $(wildcard include/config/sparsemem/extreme.h) \
-    $(wildcard include/config/memory/hotremove.h) \
-    $(wildcard include/config/have/arch/pfn/valid.h) \
-    $(wildcard include/config/holes/in/zone.h) \
-    $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
   include/uapi/linux/wait.h \
   include/linux/numa.h \
     $(wildcard include/config/nodes/shift.h) \
+  include/linux/seqlock.h \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
@@ -492,6 +467,7 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   include/uapi/linux/errno.h \
   arch/x86/include/asm/uprobes.h \
   include/linux/notifier.h \
+    $(wildcard include/config/tree/srcu.h) \
   include/linux/mutex.h \
     $(wildcard include/config/mutex/spin/on/owner.h) \
     $(wildcard include/config/debug/mutexes.h) \
@@ -503,18 +479,31 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
   include/linux/workqueue.h \
     $(wildcard include/config/debug/objects/work.h) \
     $(wildcard include/config/freezer.h) \
+    $(wildcard include/config/sysfs.h) \
     $(wildcard include/config/wq/watchdog.h) \
   include/linux/timer.h \
     $(wildcard include/config/debug/objects/timers.h) \
     $(wildcard include/config/preempt/rt.h) \
     $(wildcard include/config/no/hz/common.h) \
   include/linux/ktime.h \
+  include/linux/time.h \
+    $(wildcard include/config/arch/uses/gettimeoffset.h) \
+  include/linux/time32.h \
+  include/linux/timex.h \
+  include/uapi/linux/timex.h \
+  include/uapi/linux/param.h \
+  arch/x86/include/generated/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/hz.h) \
+  include/uapi/asm-generic/param.h \
+  arch/x86/include/asm/timex.h \
+  arch/x86/include/asm/tsc.h \
+    $(wildcard include/config/x86/tsc.h) \
   include/linux/jiffies.h \
   include/generated/timeconst.h \
   include/linux/timekeeping.h \
   include/linux/timekeeping32.h \
   include/linux/debugobjects.h \
-    $(wildcard include/config/debug/objects.h) \
     $(wildcard include/config/debug/objects/free.h) \
   include/linux/rcu_segcblist.h \
   include/linux/srcutree.h \
@@ -610,6 +599,28 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
   include/linux/smp.h \
     $(wildcard include/config/up/late/init.h) \
+  include/linux/percpu-refcount.h \
+  include/linux/kasan.h \
+    $(wildcard include/config/kasan/generic.h) \
+  include/linux/module.h \
+    $(wildcard include/config/modules/tree/lookup.h) \
+    $(wildcard include/config/livepatch.h) \
+    $(wildcard include/config/module/sig.h) \
+    $(wildcard include/config/kallsyms.h) \
+    $(wildcard include/config/bpf/events.h) \
+    $(wildcard include/config/event/tracing.h) \
+    $(wildcard include/config/module/unload.h) \
+    $(wildcard include/config/constructors.h) \
+    $(wildcard include/config/function/error/injection.h) \
+  include/linux/stat.h \
+  arch/x86/include/uapi/asm/stat.h \
+  include/uapi/linux/stat.h \
+  include/linux/uidgid.h \
+    $(wildcard include/config/multiuser.h) \
+    $(wildcard include/config/user/ns.h) \
+  include/linux/highuid.h \
+  include/linux/kmod.h \
+  include/linux/umh.h \
   include/linux/sysctl.h \
     $(wildcard include/config/sysctl.h) \
   include/uapi/linux/sysctl.h \
@@ -675,178 +686,7 @@ deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o := \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
   arch/x86/include/asm/orc_types.h \
-  include/linux/fs.h \
-    $(wildcard include/config/read/only/thp/for/fs.h) \
-    $(wildcard include/config/fs/posix/acl.h) \
-    $(wildcard include/config/security.h) \
-    $(wildcard include/config/cgroup/writeback.h) \
-    $(wildcard include/config/ima.h) \
-    $(wildcard include/config/file/locking.h) \
-    $(wildcard include/config/fsnotify.h) \
-    $(wildcard include/config/fs/encryption.h) \
-    $(wildcard include/config/fs/verity.h) \
-    $(wildcard include/config/epoll.h) \
-    $(wildcard include/config/quota.h) \
-    $(wildcard include/config/fs/dax.h) \
-    $(wildcard include/config/block.h) \
-    $(wildcard include/config/mandatory/file/locking.h) \
-    $(wildcard include/config/migration.h) \
-    $(wildcard include/config/io/uring.h) \
-  include/linux/wait_bit.h \
-  include/linux/kdev_t.h \
-  include/uapi/linux/kdev_t.h \
-  include/linux/dcache.h \
-  include/linux/rculist.h \
-    $(wildcard include/config/prove/rcu/list.h) \
-  include/linux/rculist_bl.h \
-  include/linux/list_bl.h \
-  include/linux/bit_spinlock.h \
-  include/linux/lockref.h \
-    $(wildcard include/config/arch/use/cmpxchg/lockref.h) \
-  include/linux/stringhash.h \
-    $(wildcard include/config/dcache/word/access.h) \
-  include/linux/hash.h \
-    $(wildcard include/config/have/arch/hash.h) \
-  include/linux/path.h \
-  include/linux/list_lru.h \
-    $(wildcard include/config/memcg/kmem.h) \
-  include/linux/shrinker.h \
-  include/linux/pid.h \
-  include/linux/capability.h \
-  include/uapi/linux/capability.h \
-  include/linux/semaphore.h \
-  include/linux/fcntl.h \
-    $(wildcard include/config/arch/32bit/off/t.h) \
-  include/uapi/linux/fcntl.h \
-  arch/x86/include/generated/uapi/asm/fcntl.h \
-  include/uapi/asm-generic/fcntl.h \
-  include/uapi/linux/fiemap.h \
-  include/linux/migrate_mode.h \
-  include/linux/percpu-rwsem.h \
-  include/linux/rcuwait.h \
-  include/linux/rcu_sync.h \
-  include/linux/delayed_call.h \
-  include/linux/uuid.h \
-  include/uapi/linux/uuid.h \
-  include/linux/errseq.h \
-  include/linux/ioprio.h \
-  include/linux/sched.h \
-    $(wildcard include/config/virt/cpu/accounting/native.h) \
-    $(wildcard include/config/sched/info.h) \
-    $(wildcard include/config/schedstats.h) \
-    $(wildcard include/config/fair/group/sched.h) \
-    $(wildcard include/config/rt/group/sched.h) \
-    $(wildcard include/config/uclamp/task.h) \
-    $(wildcard include/config/uclamp/buckets/count.h) \
-    $(wildcard include/config/cgroup/sched.h) \
-    $(wildcard include/config/blk/dev/io/trace.h) \
-    $(wildcard include/config/psi.h) \
-    $(wildcard include/config/compat/brk.h) \
-    $(wildcard include/config/cgroups.h) \
-    $(wildcard include/config/blk/cgroup.h) \
-    $(wildcard include/config/arch/has/scaled/cputime.h) \
-    $(wildcard include/config/virt/cpu/accounting/gen.h) \
-    $(wildcard include/config/posix/cputimers.h) \
-    $(wildcard include/config/keys.h) \
-    $(wildcard include/config/sysvipc.h) \
-    $(wildcard include/config/detect/hung/task.h) \
-    $(wildcard include/config/audit.h) \
-    $(wildcard include/config/auditsyscall.h) \
-    $(wildcard include/config/rt/mutexes.h) \
-    $(wildcard include/config/ubsan.h) \
-    $(wildcard include/config/task/xacct.h) \
-    $(wildcard include/config/cpusets.h) \
-    $(wildcard include/config/x86/cpu/resctrl.h) \
-    $(wildcard include/config/futex.h) \
-    $(wildcard include/config/perf/events.h) \
-    $(wildcard include/config/rseq.h) \
-    $(wildcard include/config/task/delay/acct.h) \
-    $(wildcard include/config/fault/injection.h) \
-    $(wildcard include/config/latencytop.h) \
-    $(wildcard include/config/function/graph/tracer.h) \
-    $(wildcard include/config/kcov.h) \
-    $(wildcard include/config/bcache.h) \
-    $(wildcard include/config/vmap/stack.h) \
-    $(wildcard include/config/gcc/plugin/stackleak.h) \
-    $(wildcard include/config/arch/task/struct/on/stack.h) \
-    $(wildcard include/config/debug/rseq.h) \
-  include/uapi/linux/sched.h \
-  include/linux/sem.h \
-  include/uapi/linux/sem.h \
-  include/linux/ipc.h \
-  include/linux/rhashtable-types.h \
-  include/uapi/linux/ipc.h \
-  arch/x86/include/generated/uapi/asm/ipcbuf.h \
-  include/uapi/asm-generic/ipcbuf.h \
-  arch/x86/include/uapi/asm/sembuf.h \
-  include/linux/shm.h \
-  include/uapi/linux/shm.h \
-  include/uapi/asm-generic/hugetlb_encode.h \
-  arch/x86/include/uapi/asm/shmbuf.h \
-  include/uapi/asm-generic/shmbuf.h \
-  arch/x86/include/asm/shmparam.h \
-  include/linux/kcov.h \
-  include/uapi/linux/kcov.h \
-  include/linux/plist.h \
-    $(wildcard include/config/debug/plist.h) \
-  include/linux/hrtimer.h \
-    $(wildcard include/config/high/res/timers.h) \
-    $(wildcard include/config/time/low/res.h) \
-    $(wildcard include/config/timerfd.h) \
-  include/linux/hrtimer_defs.h \
-  include/linux/timerqueue.h \
-  include/linux/seccomp.h \
-    $(wildcard include/config/seccomp.h) \
-    $(wildcard include/config/have/arch/seccomp/filter.h) \
-    $(wildcard include/config/seccomp/filter.h) \
-    $(wildcard include/config/checkpoint/restore.h) \
-  include/uapi/linux/seccomp.h \
-  arch/x86/include/asm/seccomp.h \
-  arch/x86/include/asm/unistd.h \
-  arch/x86/include/uapi/asm/unistd.h \
-  arch/x86/include/generated/uapi/asm/unistd_64.h \
-  arch/x86/include/generated/asm/unistd_64_x32.h \
-  arch/x86/include/asm/ia32_unistd.h \
-  arch/x86/include/generated/asm/unistd_32_ia32.h \
-  include/asm-generic/seccomp.h \
-  include/uapi/linux/unistd.h \
-  include/linux/resource.h \
-  include/uapi/linux/resource.h \
-  arch/x86/include/generated/uapi/asm/resource.h \
-  include/asm-generic/resource.h \
-  include/uapi/asm-generic/resource.h \
-  include/linux/latencytop.h \
-  include/linux/sched/prio.h \
-  include/linux/sched/types.h \
-  include/linux/signal_types.h \
-    $(wildcard include/config/old/sigaction.h) \
-  include/uapi/linux/signal.h \
-  arch/x86/include/asm/signal.h \
-  arch/x86/include/uapi/asm/signal.h \
-  include/uapi/asm-generic/signal-defs.h \
-  arch/x86/include/uapi/asm/siginfo.h \
-  include/uapi/asm-generic/siginfo.h \
-  include/linux/task_io_accounting.h \
-    $(wildcard include/config/task/io/accounting.h) \
-  include/linux/posix-timers.h \
-    $(wildcard include/config/posix/timers.h) \
-  include/linux/alarmtimer.h \
-  include/uapi/linux/rseq.h \
-  include/linux/sched/rt.h \
-  include/linux/iocontext.h \
-  include/linux/fs_types.h \
-  include/uapi/linux/fs.h \
-  include/linux/quota.h \
-    $(wildcard include/config/quota/netlink/interface.h) \
-  include/linux/percpu_counter.h \
-  include/uapi/linux/dqblk_xfs.h \
-  include/linux/dqblk_v1.h \
-  include/linux/dqblk_v2.h \
-  include/linux/dqblk_qtree.h \
-  include/linux/projid.h \
-  include/uapi/linux/quota.h \
-  include/linux/nfs_fs_i.h \
 
-/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o: $(deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o)
+/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o: $(deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o)
 
-$(deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/char_drv.o):
+$(deps_/home/cvam/Documents/Linux_DEV/OS/Drivers/memory_alloc_kernel.o):

@@ -17,3 +17,5 @@ obj-m := parameters.o
 obj-m := char_drv.o
 
 obj-m := block_drv.o
+
+obj-m := memory_alloc_kernel.o 

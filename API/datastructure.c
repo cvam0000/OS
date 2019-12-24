@@ -2,10 +2,11 @@
 #include<linux/init.h>
 #include<linux/module.h>
 #include<linux/list.h>
-#include<slab.h>
+#include<linux/slab.h>
 
 
-/* Because Doubly Link List is often used in the Kernel dev so the Kernel API provides a unified way to defining and using list. 
+/* Because Doubly Link List is often used in the Kernel dev so the Kernel API provides a unified way to defining and using list.
+ * also kernel gives you RedBlack so dont worry you dont have to write your own list and tree 
  * struct list_head is consider as list node defined in include/linux/list.h
  * along with all the function which are useful to manipulate the list.
  *
@@ -91,19 +92,21 @@ static int del_pid(pid_t pid)
 
 
 
-static int __list_init__(void)
+static int  __list_init__(void)
 {
 	printk(KERN_ALERT"Lets do an example to create a list and use some function form list.h");
+	//add_pid(1);
+	//del_pid(1);
 	return 0;
 
 }	
 
-static void __list_exit__(void)
+static void  __list_exit__(void)
 {
 	printk(KERN_ALERT"Time To Leave The Planet Kernel");
 }
 
 
-module_init(___list_init__);
+module_init(__list_init__);
 module_exit(__list_exit__);
 

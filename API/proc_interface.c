@@ -35,10 +35,57 @@ struct proc_dir_entry *proc;  // proc entry
 int len;
 char *msg;
 
+
+/*Function to read from Kernel space*/
+
+static ssize_t proc_read(struct file *fp , char *buf , size_t len , loff_t *off)
+{
+    static int finished=0;
+    if(finished)
+    {   finished=0;
+        return 0;
+    }
+     finished=1;
+     strcpy(buf, "Merry Chritmas \n");
+     return strlen(buf);
+}
+
+/* Initialized File operations structure for reading operation */
+
+static struct file_operations read_the_proc={
+    .owner = THIS_MODULE ,
+    .read  = proc_read,  };
+
+static int proc_init(void)
+{   /* Proc create API */
+    proc = proc_create( "proc" , 0444 , NULL ,&proc_read);
+    if(proc == NULL)
+    {
+        printk(KERN_ALERT" Error could not initialize the Proc");
+    }
+    return 0;
+}
+
+staic void proc_exit(void)
+{
+    remove_proc_entry("proc" NULL);
+}
+
+module_init(proc_init);
+module_exit(proc_exit);
+
+
+/*
+
+
+
+
+
+
 /* function to write  to proc. using write system call 
  * what it does, writes data from a buffer declared by the user to a given device.
 */
-
+/*
 static ssize_t my_proc_write(struct file *flip, //
 			     const char __user *buffer,
 			     size_t count,
@@ -47,6 +94,6 @@ static ssize_t my_proc_write(struct file *flip, //
 
 }
 
-
+*/
 
 

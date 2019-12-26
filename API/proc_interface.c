@@ -31,7 +31,7 @@
 #define MY_PROC_ENTRY "cvam"
 #define PATH_TO_PROC "/proc/cvam"
 
-struct proc_dir_entry *proc;  // proc entry
+struct proc_dir_entry *proc_cvam;  // proc entry
 int len;
 char *msg;
 
@@ -58,17 +58,17 @@ static struct file_operations read_the_proc={
 
 static int proc_init(void)
 {   /* Proc create API */
-    proc = proc_create( "proc" , 0444 , NULL ,&proc_read);
-    if(proc == NULL)
+    proc_cvam = proc_create( "proc_cvam" , 0444 , NULL ,&read_the_proc);
+    if(proc_cvam == NULL)
     {
         printk(KERN_ALERT" Error could not initialize the Proc");
     }
     return 0;
 }
 
-staic void proc_exit(void)
+static void proc_exit(void)
 {
-    remove_proc_entry("proc" NULL);
+    remove_proc_entry("proc_cvam",NULL);
 }
 
 module_init(proc_init);

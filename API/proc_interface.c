@@ -9,7 +9,7 @@
  * also it is used for communicating some information to the kernel space as well.
  * for eg.
  *
- * echo 1 > /proc/sysrq-trigger // wiil print all the backtraces of all the CPUs
+ * echo 1 > /proc/sysrqx-trigger // wiil print all the backtraces of all the CPUs
  * this file gives you ability to work differnetly  
  * 
  * if you want more dig out about proc file system 
@@ -30,7 +30,7 @@
 #define DATA_SIZE 1024 //lets keep 1024 byte data with us 
 #define MY_PROC_ENTRY "cvam"
 #define PATH_TO_PROC "/proc/cvam"
-
+#define PERMISSION 0444
 struct proc_dir_entry *proc_cvam;  // proc entry
 int len;
 char *msg;
@@ -54,11 +54,13 @@ static ssize_t proc_read(struct file *fp , char *buf , size_t len , loff_t *off)
 
 static struct file_operations read_the_proc={
     .owner = THIS_MODULE ,
-    .read  = proc_read,  };
+    .read  = proc_read,
+    };
+
 
 static int proc_init(void)
 {   /* Proc create API */
-    proc_cvam = proc_create( "proc_cvam" , 0444 , NULL ,&read_the_proc);
+    proc_cvam = proc_create( "proc_cvam" , PERMISSION , NULL ,&read_the_proc);
     if(proc_cvam == NULL)
     {
         printk(KERN_ALERT" Error could not initialize the Proc");

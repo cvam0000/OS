@@ -95,8 +95,9 @@ static int del_pid(pid_t pid)
 static int  __list_init__(void)
 {
 	printk(KERN_ALERT"Lets do an example to create a list and use some function form list.h");
-	//add_pid(1);
-	//del_pid(1);
+	struct pid_list a=1;
+    add_pid(a);
+	del_pid(a);
 	return 0;
 
 }	

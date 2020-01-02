@@ -56,8 +56,8 @@
 
 
 
-struct pid_list{
-	pid_t pid;
+struct cvam_list{
+	int data;
 	struct list_head list;
 	};
 
@@ -95,7 +95,7 @@ static int del_pid(pid_t pid)
 static int  __list_init__(void)
 {
 	printk(KERN_ALERT"Lets do an example to create a list and use some function form list.h");
-	struct pid_list a=1;
+	int a=10;
     add_pid(a);
 	del_pid(a);
 	return 0;

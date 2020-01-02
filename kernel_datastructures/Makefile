@@ -1,2 +1,2 @@
 
-obj-m := link_list.o
+obj-m := kernel_list.o

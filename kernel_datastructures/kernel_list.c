@@ -13,7 +13,7 @@ static LIST_HEAD(root);
 
 static int add_node(int data)
 {
-    struct cvam_list *node= kmalloc(sizeof(struct cvam_list),GFP_KERNEL);
+    struct cvam_list *node= vmalloc(sizeof(node));
     if(!node)
         return -ENOMEM;
     node->data=data;

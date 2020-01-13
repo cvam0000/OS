@@ -3,6 +3,7 @@
 #include<linux/module.h>
 #include<linux/list.h>
 #include<linux/slab.h>
+#include<linux/vmalloc.h>
 
 
 /* Because Doubly Link List is often used in the Kernel dev so the Kernel API provides a unified way to defining and using list.
@@ -65,7 +66,7 @@ LIST_HEAD(cvam_list);  /* is used to declare the sentinel of a list */
 
 static int add_pid(pid_t pid)
 	{
-	struct pid_list *pointer = kmalloc(sizeof *pointer ,GFP_KERNEL);
+	struct pid_list *pointer = vmalloc(sizeof(pointer));
 	if(!pointer)
 		return -ENOMEM;
 	pointer->pid=pid;
@@ -92,7 +93,7 @@ static int del_pid(pid_t pid)
 
 
 
-static int  __list_init__(void)
+static int  list_init__(void)
 {
 	printk(KERN_ALERT"Lets do an example to create a list and use some function form list.h");
 	int a=10;
@@ -102,12 +103,12 @@ static int  __list_init__(void)
 
 }	
 
-static void  __list_exit__(void)
+static void  list_exit__(void)
 {
 	printk(KERN_ALERT"Time To Leave The Planet Kernel");
 }
 
 
-module_init(__list_init__);
-module_exit(__list_exit__);
+module_init(list_init__);
+module_exit(list_exit__);
 

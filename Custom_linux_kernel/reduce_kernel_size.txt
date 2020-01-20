@@ -1,0 +1,28 @@
+Smaller the size of the Kernel fast the booting is.
+
+-Reasons behind having a small kernel and system.
+1. We all like to use Linux because its functionality and community support.
+2. It can be run on very small systems. So it can be useful for IOT.
+3. Run Linux as a bootloader, this reduce the time of drivers development.
+4.Boot faster
+5.Reduce Power consumption .
+6.Reduce the attack surface.
+similar projects Linuix tinification , LLVM Linux.
+
+tini.wiki.kernel.org [ A demeter of kernel.org ]
+
+How small a normal Linux syatem be ?
+
+RAM:
+-we need 2-6 MB of RAM for an embedded kernel 
+-need at atleast 8-16 MB to leave enough space for the user space, if it is not that much complicated.
+-more RAM leads to better performance.
+
+STORAGE :
+-2-4 MB space for embedded kernel
+-few hundred KB for the user space.
+-without any complex user space 8-16 MB is enough.
+
+Compiler Optimizations
+
+-gcc offers an easy-to-use way to optimize and minimizing the binary size -
